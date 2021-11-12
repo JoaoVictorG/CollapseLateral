@@ -25,17 +25,18 @@
                 </svg>
                 <div class="d-inline-flex">
                   <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                    <span style="width: 100%;">Home</span>
+                    <span>Home</span>
                   </span>
                 </div>
+                  </div>
+                <div class="collapse" id="home-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark rounded">Overview</a></li>
+                    <li><a href="#" class="link-dark rounded">Updates</a></li>
+                    <li><a href="#" class="link-dark rounded">Reports</a></li>
+                  </ul>
                 </div>
-              <div class="collapse" id="home-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                  <li><a href="#" class="link-dark rounded">Overview</a></li>
-                  <li><a href="#" class="link-dark rounded">Updates</a></li>
-                  <li><a href="#" class="link-dark rounded">Reports</a></li>
-                </ul>
-              </div>
+              </button>
             </div>
           </div>
         </li>
@@ -47,21 +48,21 @@
                   <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
                 </svg>
                 <div class="d-inline-flex">
-                <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                  <span style="width: 100%;">
-                    Dashboard
-                  </span>
+                  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <span style="width: 100%;">
+                      Dashboard
+                    </span>
+                  </div>
                 </div>
+                <div class="collapse" id="dashboard-collapse">
+                  <ul class="list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark rounded">Overview</a></li>
+                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                    <li><a href="#" class="link-dark rounded">Annually</a></li>
+                  </ul>
                 </div>
               </button>
-              <div class="collapse" id="dashboard-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                  <li><a href="#" class="link-dark rounded">Overview</a></li>
-                  <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                  <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                  <li><a href="#" class="link-dark rounded">Annually</a></li>
-                </ul>
-              </div>
             </div>
           </div>
         </li>
@@ -272,5 +273,10 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script>
+    if(document.getElementById(collapseWidthExample).checked){
+
+    }
+  </script>
 </body>
 </html>
